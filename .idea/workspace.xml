@@ -37,8 +37,8 @@
       <file leaf-file-name="TestArithmetics.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/epam/TestArithmetics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -588,15 +588,22 @@
       <option name="project" value="LOCAL" />
       <updated>1473772613131</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test version 2. with Assert.assertTrue">
+      <created>1473772870581</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1473772870581</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="TestArithmetics - 2016.09.13 at 16h 20m 24s.xml">
       <configuration name="TestArithmetics" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestArithmetics_testAdd - 2016.09.13 at 15h 49m 26s.xml">
-      <configuration name="TestArithmetics.testAdd" configurationId="JUnit" />
+    <history-entry file="TestArithmetics - 2016.09.13 at 16h 23m 39s.xml">
+      <configuration name="TestArithmetics" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestArithmetics_testAdd - 2016.09.13 at 15h 49m 47s.xml">
       <configuration name="TestArithmetics.testAdd" configurationId="JUnit" />
@@ -634,7 +641,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23587224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -667,7 +674,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add class Arithmetics" />
     <MESSAGE value="first version of tests. with if-assert" />
-    <option name="LAST_COMMIT_MESSAGE" value="first version of tests. with if-assert" />
+    <MESSAGE value="test version 2. with Assert.assertTrue" />
+    <option name="LAST_COMMIT_MESSAGE" value="test version 2. with Assert.assertTrue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -737,8 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/epam/TestArithmetics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding />
         </state>
       </provider>
