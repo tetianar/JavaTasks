@@ -37,9 +37,13 @@
       <file leaf-file-name="TestArithmetics.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/epam/TestArithmetics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,10 +109,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="x" value="-7" />
+    <option name="width" value="1284" />
+    <option name="height" value="540" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -153,6 +156,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arithmetics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arithmetics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arithmetics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arithmetics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arithmetics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arithmetics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -181,7 +242,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestArithmetics.testAdd">
+  <component name="RunManager" selected="JUnit.TestArithmetics">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ua.epam.Main" />
@@ -556,8 +617,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestArithmetics.testAdd" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestArithmetics" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestArithmetics" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestArithmetics.testAdd" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.TestArithmetics.testDiv" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.TestArithmetics.testDeduct" />
       </list>
@@ -602,43 +663,50 @@
       <option name="project" value="LOCAL" />
       <updated>1473773052345</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test version 4. with assertNull, assertNotNull, assertEquals">
+      <created>1473773466719</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1473773466719</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArithmetics - 2016.09.13 at 16h 20m 24s.xml">
+    <history-entry file="TestArithmetics - 2016.09.13 at 16h 38m 45s.xml">
       <configuration name="TestArithmetics" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestArithmetics - 2016.09.13 at 16h 23m 39s.xml">
+    <history-entry file="TestArithmetics - 2016.09.13 at 16h 39m 36s.xml">
       <configuration name="TestArithmetics" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestArithmetics - 2016.09.13 at 16h 25m 13s.xml">
+    <history-entry file="TestArithmetics - 2016.09.13 at 16h 40m 39s.xml">
       <configuration name="TestArithmetics" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestArithmetics - 2016.09.13 at 16h 25m 37s.xml">
+    <history-entry file="TestArithmetics - 2016.09.13 at 16h 41m 04s.xml">
       <configuration name="TestArithmetics" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestArithmetics_testAdd - 2016.09.13 at 16h 20m 18s.xml">
+    <history-entry file="TestArithmetics - 2016.09.13 at 16h 45m 39s.xml">
+      <configuration name="TestArithmetics" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArithmetics - 2016.09.13 at 16h 49m 05s.xml">
+      <configuration name="TestArithmetics" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArithmetics_testAdd - 2016.09.13 at 16h 38m 07s.xml">
       <configuration name="TestArithmetics.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestArithmetics_testAdd - 2016.09.13 at 16h 28m 32s.xml">
+    <history-entry file="TestArithmetics_testAdd - 2016.09.13 at 16h 39m 16s.xml">
       <configuration name="TestArithmetics.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestArithmetics_testAdd - 2016.09.13 at 16h 28m 52s.xml">
-      <configuration name="TestArithmetics.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestArithmetics_testDiv - 2016.09.13 at 15h 54m 42s.xml">
+    <history-entry file="TestArithmetics_testDiv - 2016.09.13 at 16h 38m 15s.xml">
       <configuration name="TestArithmetics.testDiv" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestArithmetics_testDiv - 2016.09.13 at 15h 54m 52s.xml">
-      <configuration name="TestArithmetics.testDiv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestArithmetics_testDiv - 2016.09.13 at 16h 20m 06s.xml">
+    <history-entry file="TestArithmetics_testDiv - 2016.09.13 at 16h 38m 18s.xml">
       <configuration name="TestArithmetics.testDiv" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-7" y="0" width="1284" height="540" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -648,12 +716,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46928746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23587224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25245097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -683,7 +751,8 @@
     <MESSAGE value="first version of tests. with if-assert" />
     <MESSAGE value="test version 2. with Assert.assertTrue" />
     <MESSAGE value="test version 3. with Assert.assertFalse" />
-    <option name="LAST_COMMIT_MESSAGE" value="test version 3. with Assert.assertFalse" />
+    <MESSAGE value="test version 4. with assertNull, assertNotNull, assertEquals" />
+    <option name="LAST_COMMIT_MESSAGE" value="test version 4. with assertNull, assertNotNull, assertEquals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -753,9 +822,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/epam/TestArithmetics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
