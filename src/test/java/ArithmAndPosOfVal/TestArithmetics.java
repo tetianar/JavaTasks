@@ -1,9 +1,8 @@
-package ua.epam;
+package ArithmAndPosOfVal;
 
 import org.junit.*;
 import org.junit.rules.ExpectedException;
 import org.junit.rules.Timeout;
-import ua.epam.Arithmetics;
 
 public class TestArithmetics {
     private static Arithmetics a;

@@ -1,4 +1,4 @@
-package ua.epam;
+package ArithmAndPosOfVal;
 
 public class Main {
 

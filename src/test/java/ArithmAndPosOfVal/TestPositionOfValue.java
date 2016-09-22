@@ -1,4 +1,4 @@
-package ua.epam;
+package ArithmAndPosOfVal;
 import org.junit.*;
 
 import java.util.Arrays;
@@ -71,5 +71,6 @@ public class TestPositionOfValue {
         int [] actualArray = a.search(arrayValues,value);
         Assert.assertTrue(Arrays.equals(actualArray,expectArray));
     }
+
 
 }

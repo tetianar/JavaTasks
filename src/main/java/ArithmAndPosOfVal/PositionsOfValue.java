@@ -1,4 +1,4 @@
-package ua.epam;
+package ArithmAndPosOfVal;
 
 import java.lang.reflect.Array;
 
