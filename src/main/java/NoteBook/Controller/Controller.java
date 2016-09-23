@@ -2,7 +2,6 @@ package NoteBook.Controller;
 import NoteBook.Model.Entity.NoteBookItem;
 import NoteBook.Model.Model;
 import NoteBook.View;
-
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -35,18 +34,31 @@ public class Controller {
         inputRegForm.setStreet(inputIntValueWithScanner(sc,view.INPUT_STREET, regExpStreet));
         inputRegForm.setBuilding(inputIntValueWithScanner(sc,view.INPUT_BUILDING, regExpBuilding));
         inputRegForm.setApartment(inputIntValueWithScanner(sc,view.INPUT_APARTMENT, regExpApartment));
+        inputRegForm.setComment(inputIntValueWithScanner(sc,view.INPUT_COMMENT, regExpComment));
+        inputRegForm.setNickname(inputIntValueWithScanner(sc,view.INPUT_NICKNAME, regExpNickname));
+        inputRegForm.setGroup(inputIntValueWithScanner(sc,view.INPUT_GROUP, regExpGroups));
+        inputRegForm.setHomeNumber(inputIntValueWithScanner(sc,view.INPUT_HOME_NUMBER, regExpNumber));
+        inputRegForm.setMobileNumber(inputIntValueWithScanner(sc,view.INPUT_MOBILE_NUMBER, regExpNumber));
+        inputRegForm.setMobileNumber2(inputIntValueWithScanner(sc,view.INPUT_MOBILE_NUMBER2, regExpNumber));
+        inputRegForm.setEmail(inputIntValueWithScanner(sc,view.INPUT_EMAIL, regExpEmail));
+        inputRegForm.setSkype(inputIntValueWithScanner(sc,view.INPUT_SKYPE, regExpSkype));
+        inputRegForm.setCreateData(inputIntValueWithScanner(sc,view.INPUT_CREATE_DATE, regExpData));
+        inputRegForm.setModifyData(inputIntValueWithScanner(sc,view.INPUT_MODIFY_DATE, regExpData));
+
 
         NoteBookItem noteBookItem = new NoteBookItem();
         model.addItem();
+
+        System.out.println(noteBookItem.toString());
     }
 
 
 
     public String inputIntValueWithScanner(Scanner sc, String message, String regExp) {
+        boolean match = false;
         String inputValue = "";
         Pattern p = Pattern.compile(regExp);
 
-        boolean match = false;
         while( !match ) {
             view.printMessage(message);
             inputValue = sc.nextLine();
