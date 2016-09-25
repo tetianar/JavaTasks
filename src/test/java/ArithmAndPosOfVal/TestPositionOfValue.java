@@ -16,9 +16,7 @@ public class TestPositionOfValue {
     public void testWithPresentSearchValueMoreThanOne(){
         int value = 4;
         int [] expectArray = {4,5,7};
-
         int [] actualArray = a.search(arrayValues,value);
-
         Assert.assertTrue(Arrays.equals(actualArray,expectArray));
     }
 
@@ -26,9 +24,7 @@ public class TestPositionOfValue {
     public void testWithPresentOneSearchValue(){
         int value = 8;
         int [] expectArray = {6};
-
         int [] actualArray = a.search(arrayValues,value);
-
         Assert.assertTrue(Arrays.equals(actualArray,expectArray));
     }
 
@@ -36,9 +32,7 @@ public class TestPositionOfValue {
     public void testSearchValueAtTheLastPosition(){
         int value = 16;
         int [] expectArray = {11};
-
         int [] actualArray = a.search(arrayValues,value);
-
         Assert.assertTrue(Arrays.equals(actualArray,expectArray));
     }
 
@@ -46,9 +40,7 @@ public class TestPositionOfValue {
     public void testSearchValueAtTheFirstPosition(){
         int value = 17;
         int [] expectArray = {0};
-
         int [] actualArray = a.search(arrayValues,value);
-
         Assert.assertTrue(Arrays.equals(actualArray,expectArray));
     }
 
@@ -56,9 +48,7 @@ public class TestPositionOfValue {
     public void testWithOutSearchValue(){
         int value = 115;
         int [] expectArray = {};
-
         int [] actualArray = a.search(arrayValues,value);
-
         Assert.assertTrue(Arrays.equals(actualArray,expectArray));
     }
 

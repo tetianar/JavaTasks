@@ -35,7 +35,7 @@ public class Controller {
         inputRegForm.setBuilding(inputIntValueWithScanner(sc,view.INPUT_BUILDING, regExpBuilding));
         inputRegForm.setApartment(inputIntValueWithScanner(sc,view.INPUT_APARTMENT, regExpApartment));
         inputRegForm.setComment(inputIntValueWithScanner(sc,view.INPUT_COMMENT, regExpComment));
-        inputRegForm.setNickname(inputIntValueWithScanner(sc,view.INPUT_NICKNAME, regExpNickname));
+        inputRegForm.setNickname(inputIntValueWithScanner(sc,view.INPUT_NICKNAME, regExpName));
         inputRegForm.setGroup(inputIntValueWithScanner(sc,view.INPUT_GROUP, regExpGroups));
         inputRegForm.setHomeNumber(inputIntValueWithScanner(sc,view.INPUT_HOME_NUMBER, regExpNumber));
         inputRegForm.setMobileNumber(inputIntValueWithScanner(sc,view.INPUT_MOBILE_NUMBER, regExpNumber));
