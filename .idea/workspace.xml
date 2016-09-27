@@ -2,85 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a28dda2-1425-4a3a-9176-70e712588153" name="Default" comment="add files">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ArithmAndPosOfVal/Arithmetics.java" afterPath="$PROJECT_DIR$/src/main/java/arithmAndPosOfVal/Arithmetics.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ArithmAndPosOfVal/Main.java" afterPath="$PROJECT_DIR$/src/main/java/arithmAndPosOfVal/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ArithmAndPosOfVal/PositionsOfValue.java" afterPath="$PROJECT_DIR$/src/main/java/arithmAndPosOfVal/PositionsOfValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Driver/Main.java" afterPath="$PROJECT_DIR$/src/main/java/driver/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Driver/entities/Driver.java" afterPath="$PROJECT_DIR$/src/main/java/driver/entities/Driver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Driver/entities/DriverLicense.java" afterPath="$PROJECT_DIR$/src/main/java/driver/entities/DriverLicense.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Driver/entities/GasolineCar.java" afterPath="$PROJECT_DIR$/src/main/java/driver/entities/GasolineCar.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Driver/entities/Human.java" afterPath="$PROJECT_DIR$/src/main/java/driver/entities/Human.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Driver/entities/Route.java" afterPath="$PROJECT_DIR$/src/main/java/driver/entities/Route.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Driver/entities/Truck.java" afterPath="$PROJECT_DIR$/src/main/java/driver/entities/Truck.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Driver/entities/Vehicle.java" afterPath="$PROJECT_DIR$/src/main/java/driver/entities/Vehicle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/EqualsHashCode/City.java" afterPath="$PROJECT_DIR$/src/main/java/equalsHashCode/City.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/EqualsHashCode/Direction.java" afterPath="$PROJECT_DIR$/src/main/java/equalsHashCode/Direction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/EqualsHashCode/EpamEmployee.java" afterPath="$PROJECT_DIR$/src/main/java/equalsHashCode/EpamEmployee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/EqualsHashCode/Main.java" afterPath="$PROJECT_DIR$/src/main/java/equalsHashCode/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/EqualsHashCode/RdEmployee.java" afterPath="$PROJECT_DIR$/src/main/java/equalsHashCode/RdEmployee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/GuessNumber/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/guessNumber/Controller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/GuessNumber/Main.java" afterPath="$PROJECT_DIR$/src/main/java/guessNumber/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/GuessNumber/Model.java" afterPath="$PROJECT_DIR$/src/main/java/guessNumber/Model.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/GuessNumber/View.java" afterPath="$PROJECT_DIR$/src/main/java/guessNumber/View.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/NoteBook/Controller/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/noteBook/controller/Controller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/NoteBook/Controller/InputRegForm.java" afterPath="$PROJECT_DIR$/src/main/java/noteBook/controller/InputRegForm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/NoteBook/Controller/RegularExpressions.java" afterPath="$PROJECT_DIR$/src/main/java/noteBook/controller/RegularExpressions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/NoteBook/Main.java" afterPath="$PROJECT_DIR$/src/main/java/noteBook/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/NoteBook/Model/Entity/Address.java" afterPath="$PROJECT_DIR$/src/main/java/noteBook/model/entity/Address.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/NoteBook/Model/Entity/Group.java" afterPath="$PROJECT_DIR$/src/main/java/noteBook/model/entity/Group.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/NoteBook/Model/Entity/Name.java" afterPath="$PROJECT_DIR$/src/main/java/noteBook/model/entity/Name.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/NoteBook/Model/Entity/NoteBookItem.java" afterPath="$PROJECT_DIR$/src/main/java/noteBook/model/entity/NoteBookItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/NoteBook/Model/Model.java" afterPath="$PROJECT_DIR$/src/main/java/noteBook/model/Model.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/NoteBook/View.java" afterPath="$PROJECT_DIR$/src/main/java/noteBook/View.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Patterns/AbstractFactory.java" afterPath="$PROJECT_DIR$/src/main/java/patterns/AbstractFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Patterns/Adapter.java" afterPath="$PROJECT_DIR$/src/main/java/patterns/Adapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Patterns/Builder.java" afterPath="$PROJECT_DIR$/src/main/java/patterns/Builder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Patterns/ChainOfRespons.java" afterPath="$PROJECT_DIR$/src/main/java/patterns/ChainOfRespons.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Patterns/DecoratorPattern.java" afterPath="$PROJECT_DIR$/src/main/java/patterns/DecoratorPattern.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Patterns/FactoryMethod.java" afterPath="$PROJECT_DIR$/src/main/java/patterns/FactoryMethod.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Patterns/Memento.java" afterPath="$PROJECT_DIR$/src/main/java/patterns/Memento.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Patterns/State.java" afterPath="$PROJECT_DIR$/src/main/java/patterns/State.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Patterns/Strategy.java" afterPath="$PROJECT_DIR$/src/main/java/patterns/Strategy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Patterns/TemplateMethod.java" afterPath="$PROJECT_DIR$/src/main/java/patterns/TemplateMethod.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Reflection/Car.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/Car.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Reflection/FieldAnnotation.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/FieldAnnotation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Reflection/Main.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Reflection/MethodAnnotation.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/MethodAnnotation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Reflection/Transport.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/Transport.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Reflection/Truck.java" afterPath="$PROJECT_DIR$/src/main/java/reflection/Truck.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Relations/Main.java" afterPath="$PROJECT_DIR$/src/main/java/relations/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Relations/Operator.java" afterPath="$PROJECT_DIR$/src/main/java/relations/Operator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Relations/Robot.java" afterPath="$PROJECT_DIR$/src/main/java/relations/Robot.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ArithmAndPosOfVal/TestArithmetics.java" afterPath="$PROJECT_DIR$/src/test/java/arithmAndPosOfVal/TestArithmetics.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ArithmAndPosOfVal/TestPositionOfValue.java" afterPath="$PROJECT_DIR$/src/test/java/arithmAndPosOfVal/TestPositionOfValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Driver/TestRoute.java" afterPath="$PROJECT_DIR$/src/test/java/driver/TestRoute.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ArithmAndPosOfVal/Arithmetics.class" afterPath="$PROJECT_DIR$/target/classes/ArithmAndPosOfVal/Arithmetics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ArithmAndPosOfVal/Main.class" afterPath="$PROJECT_DIR$/target/classes/ArithmAndPosOfVal/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ArithmAndPosOfVal/PositionsOfValue.class" afterPath="$PROJECT_DIR$/target/classes/ArithmAndPosOfVal/PositionsOfValue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/Main.class" afterPath="$PROJECT_DIR$/target/classes/Driver/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/entities/Driver.class" afterPath="$PROJECT_DIR$/target/classes/Driver/entities/Driver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/entities/DriverLicense$Category.class" afterPath="$PROJECT_DIR$/target/classes/Driver/entities/DriverLicense$Category.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/entities/DriverLicense.class" afterPath="$PROJECT_DIR$/target/classes/Driver/entities/DriverLicense.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/entities/GasolineCar$Transmission.class" afterPath="$PROJECT_DIR$/target/classes/Driver/entities/GasolineCar$Transmission.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/entities/GasolineCar.class" afterPath="$PROJECT_DIR$/target/classes/Driver/entities/GasolineCar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/entities/Human$BloodGroup.class" afterPath="$PROJECT_DIR$/target/classes/Driver/entities/Human$BloodGroup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/entities/Human$Gender.class" afterPath="$PROJECT_DIR$/target/classes/Driver/entities/Human$Gender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/entities/Human.class" afterPath="$PROJECT_DIR$/target/classes/Driver/entities/Human.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/entities/Route.class" afterPath="$PROJECT_DIR$/target/classes/Driver/entities/Route.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/entities/Truck.class" afterPath="$PROJECT_DIR$/target/classes/Driver/entities/Truck.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/entities/Vehicle.class" afterPath="$PROJECT_DIR$/target/classes/Driver/entities/Vehicle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EqualsHashCode/City.class" afterPath="$PROJECT_DIR$/target/classes/EqualsHashCode/City.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EqualsHashCode/Direction.class" afterPath="$PROJECT_DIR$/target/classes/EqualsHashCode/Direction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EqualsHashCode/EpamEmployee.class" afterPath="$PROJECT_DIR$/target/classes/EqualsHashCode/EpamEmployee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EqualsHashCode/Main.class" afterPath="$PROJECT_DIR$/target/classes/EqualsHashCode/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EqualsHashCode/RdEmployee.class" afterPath="$PROJECT_DIR$/target/classes/EqualsHashCode/RdEmployee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GuessNumber/Controller.class" afterPath="$PROJECT_DIR$/target/classes/GuessNumber/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GuessNumber/Main.class" afterPath="$PROJECT_DIR$/target/classes/GuessNumber/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GuessNumber/Model.class" afterPath="$PROJECT_DIR$/target/classes/GuessNumber/Model.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GuessNumber/View.class" afterPath="$PROJECT_DIR$/target/classes/GuessNumber/View.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ArithmAndPosOfVal/TestArithmetics.class" afterPath="$PROJECT_DIR$/target/test-classes/ArithmAndPosOfVal/TestArithmetics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ArithmAndPosOfVal/TestPositionOfValue.class" afterPath="$PROJECT_DIR$/target/test-classes/ArithmAndPosOfVal/TestPositionOfValue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Driver/TestRoute.class" afterPath="$PROJECT_DIR$/target/test-classes/Driver/TestRoute.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Arithmetics.iws" />
@@ -108,16 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/noteBook/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InputRegForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/noteBook/controller/InputRegForm.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -188,12 +99,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/noteBook/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/game/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -404,126 +327,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arithmetics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arithmetics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noteBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arithmetics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arithmetics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noteBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arithmetics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arithmetics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noteBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arithmetics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Arithmetics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noteBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1071,7 +874,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1082,10 +885,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73587084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14417532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29873127" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29873127" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20873787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20873787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1575,16 +1378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/driver/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1700,6 +1493,16 @@
         <state relative-caret-position="408">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

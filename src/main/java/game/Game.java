@@ -15,6 +15,12 @@ public class Game {
         guess(min,max,value);
     }
 
+    /**
+     * Game guess number from diapazone (min,max)
+     * @param min - minimum
+     * @param max - maximum
+     * @param value - value, that user should guess
+     */
     public static void guess(int min, int max, int value ) {
         boolean win = false;
         while (win == false) {
@@ -40,11 +46,18 @@ public class Game {
         }
     }
 
+    /**
+     * //Set value using random function. User indicate min and max. Min, max not including
+    */
     private static int setValue(int min, int max) {
         Random rnd = new Random(System.currentTimeMillis());
         int value = min + rnd.nextInt(max - min + 1);
         return value;
     }
+
+    /**
+     * //Set value using random function from min to max, not include
+     */
     private static int setValue() {
         int min = 0;
         int max = 100;
