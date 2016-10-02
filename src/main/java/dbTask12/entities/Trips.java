@@ -1,21 +1,23 @@
 package dbTask12.entities;
 
+import java.util.Date;
+
 /**
  * Created by Tetiana_Romaniv on 9/30/2016.
  */
 public class Trips {
     private int id;
-    private boolean status;
-    private String dateDepart;
-    private String dateDest;
+    private Date dateDepart;
+    private Date dateDest;
+    private Double price;
     private int routeID;
     private int busesID;
 
-    public Trips(int id, boolean status, String dateDepart, String dateDest, int routeID, int busesID) {
+    public Trips(int id, Date dateDepart, Date dateDest, double price,int routeID, int busesID) {
         this.id = id;
-        this.status = status;
         this.dateDepart = dateDepart;
         this.dateDest = dateDest;
+        this.price = price;
         this.routeID = routeID;
         this.busesID = busesID;
     }
@@ -28,28 +30,28 @@ public class Trips {
         this.id = id;
     }
 
-    public boolean isStatus() {
-        return status;
-    }
-
-    public void setStatus(boolean status) {
-        this.status = status;
-    }
-
-    public String getDateDepart() {
+    public Date getDateDepart() {
         return dateDepart;
     }
 
-    public void setDateDepart(String dateDepart) {
+    public void setDateDepart(Date dateDepart) {
         this.dateDepart = dateDepart;
     }
 
-    public String getDateDest() {
+    public Date getDateDest() {
         return dateDest;
     }
 
-    public void setDateDest(String dateDest) {
+    public void setDateDest(Date dateDest) {
         this.dateDest = dateDest;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
     }
 
     public int getRouteID() {
@@ -72,9 +74,9 @@ public class Trips {
     public String toString() {
         return "Trips{" +
                 "id=" + id +
-                ", status=" + status +
-                ", dateDepart='" + dateDepart + '\'' +
-                ", dateDest='" + dateDest + '\'' +
+                ", dateDepart=" + dateDepart +
+                ", dateDest=" + dateDest +
+                ", price=" + price +
                 ", routeID=" + routeID +
                 ", busesID=" + busesID +
                 '}';

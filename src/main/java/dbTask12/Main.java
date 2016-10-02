@@ -13,9 +13,13 @@ public class Main {
 
     public static void main( String[] args ) throws SQLException {
 
-        DataBase.getTableBuses();
-        DataBase.getTableCities();
-        DataBase.getTableSeats();
+        System.out.println(getTableBuses());
+        System.out.println(getTableCities());
+        System.out.println(getTableSeats());
+        System.out.println(getTableRoutes());
+        System.out.println(getTableTrips());
+        System.out.println(getTableOrders());
+        System.out.println(getTableTravelers());
     }
 
 
