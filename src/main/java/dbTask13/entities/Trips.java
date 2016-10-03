@@ -1,9 +1,9 @@
-package dbTask12.entities;
+package dbTask13.entities;
 
 import java.util.Date;
 
 /**
- * Created by Tetiana_Romaniv on 9/30/2016.
+ * Created by Tetiana_Romaniv on 10/3/2016.
  */
 public class Trips {
     private int id;
@@ -12,15 +12,6 @@ public class Trips {
     private Double price;
     private int routeID;
     private int busesID;
-
-    public Trips(int id, Date dateDepart, Date dateDest, double price,int routeID, int busesID) {
-        this.id = id;
-        this.dateDepart = dateDepart;
-        this.dateDest = dateDest;
-        this.price = price;
-        this.routeID = routeID;
-        this.busesID = busesID;
-    }
 
     public int getId() {
         return id;

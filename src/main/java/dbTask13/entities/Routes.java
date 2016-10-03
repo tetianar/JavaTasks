@@ -1,20 +1,13 @@
-package dbTask12.entities;
+package dbTask13.entities;
 
 /**
- * Created by Tetiana_Romaniv on 9/30/2016.
+ * Created by Tetiana_Romaniv on 10/3/2016.
  */
 public class Routes {
     private int id;
     private String routeName;
     private int destCity;
     private int departCity;
-
-    public Routes(int id, String routeName, int destCity, int departCity) {
-        this.id = id;
-        this.routeName = routeName;
-        this.destCity = destCity;
-        this.departCity = departCity;
-    }
 
     public int getId() {
         return id;

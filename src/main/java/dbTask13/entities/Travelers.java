@@ -1,18 +1,12 @@
-package dbTask12.entities;
+package dbTask13.entities;
 
 /**
- * Created by Tetiana_Romaniv on 9/30/2016.
+ * Created by Tetiana_Romaniv on 10/3/2016.
  */
 public class Travelers {
     private int id;
     private String firstName;
     private String lastName;
-
-    public Travelers(int id, String firstName, String lastName) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
 
     public int getId() {
         return id;

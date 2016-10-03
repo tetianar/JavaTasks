@@ -21,6 +21,4 @@ public class Main {
         System.out.println(getTableOrders());
         System.out.println(getTableTravelers());
     }
-
-
 }

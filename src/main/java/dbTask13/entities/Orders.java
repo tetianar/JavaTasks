@@ -1,22 +1,15 @@
-package dbTask12.entities;
+package dbTask13.entities;
 
 import java.util.Date;
 
 /**
- * Created by Tetiana_Romaniv on 9/30/2016.
+ * Created by Tetiana_Romaniv on 10/3/2016.
  */
 public class Orders {
     private int id;
     private Date dateTime;
     private String orderNumber;
     private int seat;
-
-    public Orders(int id, Date dateTime, String orderNumber, int seat) {
-        this.id = id;
-        this.dateTime = dateTime;
-        this.orderNumber = orderNumber;
-        this.seat = seat;
-    }
 
     public int getId() {
         return id;
@@ -54,7 +47,7 @@ public class Orders {
     public String toString() {
         return "Orders{" +
                 "id=" + id +
-                ", dateTime='" + dateTime + '\'' +
+                ", dateTime=" + dateTime +
                 ", orderNumber='" + orderNumber + '\'' +
                 ", seat=" + seat +
                 '}';

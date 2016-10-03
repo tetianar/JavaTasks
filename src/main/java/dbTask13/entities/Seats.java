@@ -1,7 +1,7 @@
-package dbTask12.entities;
+package dbTask13.entities;
 
 /**
- * Created by Tetiana_Romaniv on 9/30/2016.
+ * Created by Tetiana_Romaniv on 10/3/2016.
  */
 public class Seats {
     private int id;
@@ -9,14 +9,6 @@ public class Seats {
     private boolean nearAWindow;
     private int seatNumber;
     private int busesID;
-
-    public Seats(int id, boolean status, boolean nearAWindow, int seatNumber, int busesID) {
-        this.id = id;
-        this.status = status;
-        this.nearAWindow = nearAWindow;
-        this.seatNumber = seatNumber;
-        this.busesID = busesID;
-    }
 
     public int getId() {
         return id;
