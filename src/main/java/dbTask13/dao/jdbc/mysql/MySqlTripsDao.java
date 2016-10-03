@@ -6,6 +6,7 @@ import dbTask13.entities.Trips;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -39,6 +40,18 @@ public class MySqlTripsDao implements GenericDao<Trips> {
 
     }
 
+    private Trips getTripsFromResultSet(ResultSet resultSet)
+            throws SQLException {
+        Trips trips = new Trips();
+        trips.setId(resultSet.getInt("id"));
+        trips.setDateDepart(resultSet.getDate("date_dest"));
+        trips.setDateDest(resultSet.getDate("date_dest"));
+        trips.setPrice(resultSet.getDouble("price"));
+        trips.setBusesID(resultSet.getInt("buses_id"));
+        trips.setRouteID(resultSet.getInt("route_id"));
+        return trips;
+
+    }
 
     public List<Trips> findByPrice(int price) {
         List<Trips> result = new ArrayList<>();
