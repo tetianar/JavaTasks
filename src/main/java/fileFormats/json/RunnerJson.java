@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * Created by Tetiana_Romaniv on 10/4/2016.
  */
-public class Runner {
+public class RunnerJson {
     public static void main(String[] args) throws IOException {
 
         Cities g = new Cities(6, "Lviv");
@@ -21,6 +21,8 @@ public class Runner {
         ObjectMapper mapper = new ObjectMapper();
         Cities wasRead = mapper.readValue(jString, Cities.class);
         System.out.println(wasRead);
+
+
         //CSV0 https://www.mkyong.com/java/how-to-read-and-parse-csv-file-in-java/
         //CSV1 http://www.journaldev.com/2544/java-csv-parser
         //XPATH http://freeformatter.com/xpath-tester.html

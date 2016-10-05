@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--xsd -->
+
+<cities>
+    <list>
+        <item id="1">
+            <description/>
+            <name>Kyiv</name>
+        </item>
+        <item id="2">
+            <description/>
+            <name>Praha</name>
+        </item>
+        <item id="3">
+            <description/>
+            <name>Budapest</name>
+        </item>
+        <item id="4">
+            <description/>
+            <name>Katowice</name>
+        </item>
+        <item id="5">
+            <description/>
+            <name>Krakiv</name>
+        </item>
+    </list>
+</cities>

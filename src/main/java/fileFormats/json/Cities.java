@@ -12,8 +12,7 @@ public class Cities {
         this.name = name;
     }
 
-    public Cities(){
-        super();
+    public Cities() {
     }
 
     public int getId() {
