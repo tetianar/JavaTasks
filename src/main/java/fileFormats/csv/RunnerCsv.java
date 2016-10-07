@@ -12,7 +12,7 @@ public class RunnerCsv {
 
     public static void main(String[] args)  {
 
-        String csvFile = "cities.csv";
+        String csvFile = "/cities.csv";
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";

@@ -13,6 +13,10 @@ public class Trips {
     private int routeID;
     private int busesID;
 
+    public Trips(int id, Date dateDepart, Date dateDest, double price, int routeID, int busesID) {
+    }
+    public Trips(){}
+
     public int getId() {
         return id;
     }

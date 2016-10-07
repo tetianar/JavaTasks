@@ -1,4 +1,4 @@
-package daoTask13.service;
+package daoTask13;
 
 import daoTask13.dao.DaoFactory;
 import daoTask13.dao.OrdersDao;

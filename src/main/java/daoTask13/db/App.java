@@ -1,6 +1,6 @@
 package daoTask13.db;
 import daoTask13.entities.Trips;
-import daoTask13.service.TripsService;
+import daoTask13.TripsService;
 
 
 import java.sql.*;

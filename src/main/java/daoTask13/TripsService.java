@@ -1,4 +1,4 @@
-package daoTask13.service;
+package daoTask13;
 
 import daoTask13.dao.DaoFactory;
 import daoTask13.dao.TripsDao;
@@ -13,8 +13,8 @@ public class TripsService {
     private static TripsService instance;
     private static TripsDao dao = DaoFactory.getInstance().createTripsDao();
 
-    TripsService(){super();}
-    void setDao(TripsDao dao){this.dao = dao;}
+    public TripsService(){super();}
+    public void setDao(TripsDao dao){this.dao = dao;}
 
     public static TripsService getInstance(){
         if (instance == null){
